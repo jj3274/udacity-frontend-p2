@@ -87,7 +87,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   writing. In resumeBuilder.js, you'll be writing code that builds the resume
   dynamically when this website, index.html, is opened.
   -->
-  <script src="js/resumeData.js"></script>
   <script src="js/resumeBuilder.js"></script>
 
 
@@ -122,6 +121,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     }
     if(document.getElementsByClassName('work-entry').length === 0) {
       // document.getElementById('workExperience').style.display = 'none';
+      document.getElementById('workExperience').innerHTML = bio.name;
     }
     if(document.getElementsByClassName('project-entry').length === 0) {
       // document.getElementById('projects').style.display = 'none';
