@@ -1,4 +1,4 @@
-body, div, ul, li, p, h1, h2, h3, h4, h5, h6 {
+body, div, ul, li, p, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -13,8 +13,9 @@ body, div, ul, li, p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 40px;
-  color: #f5a623;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #E4E3F9;
   line-height: 48px;
   display: inline;
 }
@@ -22,7 +23,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #6460B5;
   line-height: 29px;
   padding: 10px;
 }
@@ -30,7 +31,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: #6460B5;
   line-height: 22px;
 }
 
@@ -82,7 +83,8 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #56F5E9;
+  ;
   display: none;
 }
 
@@ -91,7 +93,7 @@ a {
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #56F5E9;
 }
 
 .white-text {
@@ -100,7 +102,7 @@ a {
 }
 
 .gray {
-  background-color: #f3f3f3;
+  background-color: #E4E3F9;
   padding-bottom: 10px;
   clear: both;
 }
@@ -113,7 +115,7 @@ a {
 /* TODO: Replace with image later */
 
 #header {
-  background-color: #484848;
+  background-color: #6460B5;
 }
 
 .flex-box {
@@ -150,7 +152,7 @@ img {
 }
 
 span {
-  padding: 5px;
+  padding: 8px;
 }
 
 #lets-connect {
